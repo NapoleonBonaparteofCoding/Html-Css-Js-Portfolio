@@ -138,3 +138,19 @@
         transform: translateY(6px);
     }
 }
+.experience.show .experience-block {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media screen and (max-width: 600px) {
+  .contact-info-upper-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+}
