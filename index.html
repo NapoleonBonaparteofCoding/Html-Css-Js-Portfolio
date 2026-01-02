@@ -35,53 +35,96 @@
             </div>
         </div>
     </nav>
-    <section id="profile">
+    <section id="profile" class="hero">
+    <div class="hero__content">
+        <div class="hero__text">
+            <span class="hero__greeting">Zdravo, ja sam</span>
+            <h1 class="hero__name">
+                Miloš Balaž
+            </h1>
+            <h2 class="hero__role">
+                Full-Stack Web Developer
+            </h2>
+            <p class="hero__description">
+                Gradim moderne, brze i funkcionalne web aplikacije fokusirane na
+                korisničko iskustvo i čistu arhitekturu koda.
+            </p>
+            <div class="hero__actions">
+                <a href="./assets/CV - Miloš Balaž.pdf" class="btn btn-primary" target="_blank">
+                    Preuzmi CV
+                </a>
+                <a href="#Kontakt" class="btn btn-secondary">
+                    Kontaktiraj me
+                </a>
+            </div>
+            <div class="hero__socials">
+                <a href="https://www.linkedin.com/in/milo%C5%A1-bala%C5%BE-564127353/" target="_blank" aria-label="LinkedIn">
+                    <img src="./assets/linkedin.png" alt="LinkedIn profil" class="icon">
+                </a>
+                <a href="https://github.com/NapoleonBonaparteofCoding" target="_blank" aria-label="GitHub">
+                    <img src="./assets/github.png" alt="GitHub profil" class="icon">
+                </a>
+            </div>
+        </div>
+        <div class="hero__image">
+            <img src="./assets/slika.jpg" alt="Miloš Balaž – Full Stack Developer">
+        </div>
+    </div>
+</section>
+
+    <section id="Omeni" class="about">
+    <p class="section__text__p1">Saznajte više</p>
+    <h1 class="title">O meni</h1>
+
+    <div class="section-container">
+
         <div class="section__pic-container">
-            <img src="./assets/slika.jpg" alt="Milos Balaz profilna slika">
+            <img src="./assets/dizajn.png" alt="Web development ilustracija" class="about-pic">
         </div>
-        <div class="section__text">
-            <p class="section__text__p1">Cao, ja sam</p>
-            <h1 class="title">Miloš Balaž</h1>
-            <p class="section__text__p2">Frontend Developer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Instaliraj CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#Kontakt'">Kontakt info</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/milo%C5%A1-bala%C5%BE-564127353/'">
-                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/NapoleonBonaparteofCoding'">
-            </div>
-        </div>
-    </section>
-    <section id="Omeni">
-        <p class="section__text__p1">Saznajte vise</p>
-        <h1 class="title">O meni</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="profile picture" class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3>Iskustvo</h3>
-                        <p>4 godine<br>Frontend Developer</p>
-                    </div>
-                    <div class="details-container">
-                            <img src="./assets/education.png" alt="education icon" class="icon">
-                            <h3>Edukacija</h3>
-                            <p>Tehnicki fakultet "Mihajlo Pupin"</p>
-                        </div>
-                    </div>
-                    <div class="text-container">
-                        <p>Motivisan sam i posvećen student koji aktivno gradi karijeru u oblasti web razvoja i softverskog inženjerstva. Brzo učim, lako se prilagođavam i uživam u timskom radu. 
-                            Cilj mi je da kroz praktične projekte i rad u profesionalnom okruženju postanem pouzdan i kompletan developer.</p>
-                    </div>
+
+        <div class="about-details-container">
+
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon">
+                    <h3>Iskustvo</h3>
+                    <p>
+                        Bavim se programiranjem od 2020. godine<br>
+                    </p>
+                </div>
+
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon">
+                    <h3>Edukacija</h3>
+                    <p>
+                        Tehnički fakultet<br>
+                        „Mihajlo Pupin“
+                    </p>
                 </div>
             </div>
+
+            <div class="text-container">
+                <p>
+                    Motivisan sam i posvećen student koji aktivno gradi karijeru u oblasti
+                    <strong>web razvoja</strong> i <strong>softverskog inženjerstva</strong>.
+                </p>
+
+                <p>
+                    Brzo učim, lako se prilagođavam novim tehnologijama i uživam u timskom radu.
+                    Kroz praktične projekte i profesionalno okruženje gradim put ka tome
+                    da postanem <strong>pouzdan i kompletan developer</strong>.
+                </p>
+            </div>
+
         </div>
-        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Iskustvo'">
-    </section>
+    </div>
+
+    <img src="./assets/arrow.png" alt="arrow icon"
+         class="icon arrow"
+         onclick="location.href='./#Iskustvo'">
+</section>
+
     <section id="Iskustvo">
         <p class="section__text__p1">Istrazi moje</p>
         <h1 class="title">Iskustvo</h1>
