@@ -101,10 +101,6 @@
         transform: scale(1);
     }
 }
-/* =========================
-   ABOUT ANIMATIONS
-   ========================= */
-
 .about .section__pic-container,
 .about .details-container,
 .about .text-container {
@@ -153,4 +149,12 @@
   .title {
     font-size: 2rem;
   }
+}
+@media (max-width: 900px) {
+    .experience-wrapper {
+        gap: 2rem;
+    }
+    .experience-block {
+        padding: 1.5rem;
+    }
 }
